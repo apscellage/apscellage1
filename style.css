@@ -1,0 +1,172 @@
+/* --- CONFIGURATION GÉNÉRALE --- */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #fdfdfd;
+    color: #333;
+    line-height: 0.8cm;
+}
+
+.hidden { display: none !important; } /* --- LE MOTEUR DES PAGES (NE PAS SUPPRIMER) --- */
+
+.screen { /* --- ÉCRANS --- */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: absolute; /* Superpose les pages les unes sur les autres */
+    top: 0;
+    left: 0;
+    background: white; /* Pour ne pas voir la page du dessous */
+}
+
+/* Titres agrandis sur pages secondaires */
+.logo-small { /* Ap-Scellage*/
+    font-family: 'Allura', cursive;
+    font-size: 5rem !important; /* Taille augmentée */
+    margin-top: 10px;
+}
+
+h1 { font-size: 1.5rem; }
+h2 { font-family: 'Allura', cursive; font-size: 5.5rem; margin-bottom: 0.5rem; }
+h3 { font-family: 'Montserrat', sans-serif; font-size: 2.5rem; margin: 10px 0; }
+p { font-family: 'Allura', cursive; font-size: 2rem; margin: 5px 0; }
+
+.main-logo { width: 100px; height: 100px; object-fit: contain; margin-bottom: 20px; }
+
+.main-choice-row { /* Alignement horizontal des boutons accueil */
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    width: 100%;
+}
+
+.btn { /* buttons en general*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #efe809;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: #06c8f41f;
+    transform: scale(1.05);
+}
+
+.main-btn { border: 2px solid #3414e8; width: 200px; } /* bordure button d'accueil*/
+
+.btn-link { /* annuler et avancer */
+    background: none;
+    color: #aaa;
+    text-decoration: underline;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Score haut droite */
+.header-game { position: absolute; top: 20px; right: 20px; }
+.hud { font-size: 1.5rem; font-weight: bold; } 
+.score-negative { color: #ff0000 !important; }
+
+/* MODIFICATION : Nouveau style Score Actuel au-dessus de la question */
+.score-actuel-container {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #efe809;
+    margin-bottom: 10px;
+    background: #ffffff;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+/* Boîte Info */
+.sms-box {
+    background: white;
+    border: 2px solid #4ea8de;
+    border-radius: 15px;
+    padding: 20px;
+    width: 320px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.info-controls { display: flex; justify-content: space-between; margin-top: 15px; border-top: 1px solid #eee; padding-top: 10px; }
+.points-pos { color: #2ecc71; font-weight: bold; }
+.points-neg { color: #e74c3c; font-weight: bold; }
+
+/* Questions */
+.question-container {
+    border: 1px solid #4ea8de;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+.feedback { font-weight: bold; margin: 10px 0; }
+.msg-correct { color: #2ecc71; }
+.msg-wrong { color: #e74c3c; }
+.btn-link, .btn-quit { background: none; border: none; text-decoration: underline; color: #667; cursor: pointer; font-weight: bold; }
+
+#reponse-joueur {
+    width: 90%;            /* Prend presque toute la largeur de l'écran */
+    max-width: 900px;      /* Limite la largeur sur ordinateur */
+    height: 100px;         /* Hauteur de la boîte */
+    padding: 15px;         /* Espace interne pour le texte */
+    font-size: 18px;       /* Texte plus grand pour une lecture facile */
+    border: 2px solid #ffd700; /* Bordure dorée pour rester dans le thème */
+    border-radius: 10px;   /* Coins arrondis */
+    resize: none;          /* Empêche le joueur de déformer la boîte */
+}
+/* MODIFICATION : Overlay SMS Plein Écran */
+.overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.95); /* Noir quasi-opaque */
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sms-content {
+    background: white;
+    padding: 30px;
+    border-radius: 25px;
+    width: 85%;
+    max-width: 450px;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(239, 232, 9, 0.5); /* Lueur jaune autour */
+}
+
+#sms-message {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: #222;
+    white-space: pre-wrap; /* Respecte les emojis et retours à la ligne */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-continuer {
+    margin-top: 25px;
+    background: #efe809;
+    border: 2px solid #3414e8;
+    padding: 12px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}

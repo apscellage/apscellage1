@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ap-Scellage</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <div id="home-screen" class="screen">
+            <h1>Centre de Mission Chrétienne de Sion</h1> 
+            <h2>Ap - Scellage</h2> 
+            <img src="logo.jpeg" alt="Logo" class="main-logo"> 
+            <div class="main-choice-row"> 
+                <button class="btn main-btn" onclick="showModes('Prophétie')">Prophétie</button>
+                <button class="btn main-btn" onclick="showModes('Accomplissement')">Accomplissement</button>
+            </div>
+            <button class="btn-link">Classement</button>
+        </div>
+
+        <div id="mode-screen" class="screen hidden">
+            <h1 class="logo-small">Ap - Scellage</h1>
+            <h3 id="selected-category"></h3>
+            <p>Veuillez choisir le mode, s'il vous plaît</p>
+            <button class="btn" onclick="confirmMode('vrai-faux')">VRAI OU FAUX</button>
+            <button class="btn" onclick="confirmMode('quiz')">QUIZ</button>
+            <button class="btn" onclick="confirmMode('complet')">Réponse Complète</button>
+            <button class="btn-link" onclick="showScreen('home-screen')">Retour</button>
+        </div>
+
+        <div id="info-screen" class="screen hidden">
+            <h2 class="logo-small">Ap - Scellage</h2>
+            <div class="sms-box">
+                <div id="info-text"></div>
+                <div class="info-controls">
+                    <button class="btn-link" onclick="showScreen('mode-screen')">Annuler</button>
+                    <button class="btn-link" onclick="startTrivia()">Avancer</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="game-screen" class="screen hidden">
+            <div class="header-game">
+                <div class="hud">Score du jeu : <span id="current-score">0</span></div>
+            </div>
+            
+            <div class="score-actuel-container">
+                Score actuel : <span id="score-actuel-val">0</span>
+            </div>
+
+            <h1 class="logo-small">Ap - Scellage</h1>
+            
+            <div class="question-container">
+                <div id="question-display">Chargement...</div>
+            </div>
+            <div id="feedback-message" class="feedback hidden"></div>
+            <div id="answer-options"></div>
+            <button class="btn-quit" onclick="showScreen('home-screen')">Quitter</button>
+        </div>
+
+        <div id="sms-overlay" class="overlay hidden">
+            <div class="sms-content">
+                <p id="sms-message"></p>
+                <button class="btn-continuer" onclick="fermerSMS()">Continuer</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
