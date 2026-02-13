@@ -112,7 +112,7 @@ function nextQuestion() {
         optionsDiv.innerHTML =
         `<textarea id="reponse-joueur" rows="5" placeholder="Réponse..."></textarea>
          <br>
-         <button class="btn" onclick="checkAns(document.getElementById('text-ans').value)">Envoyer</button>`;
+         <button class="btn" onclick="checkAns(document.getElementById('reponse-joueur').value)">Envoyer</button>`;
     }
 }
 
