@@ -25,7 +25,7 @@ body {
 /* Titres agrandis sur pages secondaires */
 .logo-small { /* Ap-Scellage*/
     font-family: 'Allura', cursive;
-    font-size: 4rem !important; /* Taille augmentée */
+    font-size: 2rem !important; /* Taille augmentée */
     margin-top: 10px;
 }
 
