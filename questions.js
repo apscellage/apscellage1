@@ -96,16 +96,110 @@ const database = [
     { cat: "Prophétie", type: "complet", q: "Apocalypse 22:18-19 ?", r: "Je le déclare à quiconque entend les paroles de la prophétie de ce livre: Si quelqu'un y ajoute quelque chose, Dieu le frappera des fléaux décrits dans ce livre; et si quelqu'un retranche quelque chose des paroles du livre de cette prophétie, Dieu retranchera sa part de l'arbre de vie et de la ville sainte, décrits dans ce livre.", points: 8, malus: 4 },
     
     
-    /*//Accomplissement 
-    // --- Vrai ou Faux (Accomplissement) ---
-    { cat: "Accomplissement", type: "vrai-faux", q: "Le Nouveau Jean est celui qui voit et entend l'accomplissement.", r: "Vrai", points: 4, malus: 8 },
-    { cat: "Accomplissement", type: "vrai-faux", q: "Les 144 000 sont scellés après le jugement des sept sceaux.", r: "Vrai", points: 4, malus: 8 },
+    //Accomplissement 
+    // --- Vrai ou Faux (Accomplissement) (38)---
+    // --- VRAI(22) ---
+    { cat: "Accomplissement", type: "vrai-faux", q: "L’Apocalypse est un livre prophétique.", r: "Vrai", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "Jean a reçu une révélation en vision prophétique.", r: "Vrai", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "Lors de l’accomplissement physique, Nouveau Jean vient à la place de Jean et reçoit la révélation par l’accomplissement physique.", r: "Vrai", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "L’Apocalypse s’accomplit selon l’ordre Trahison – Destruction – Salut.", r: "Vrai", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "Le fait d’ouvrir les sceaux signifie que les réalités apparaissent.", r: "Vrai", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "Les sept messagers sont la réalité des sept étoiles d’Apo 1,2,3.", r: "Vrai", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "Le temple du tabernacle est la réalité des sept chandeliers d’or.", r: "Vrai", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "L’Apocalypse a commencé à s’accomplir en 1966 au pied de la montagne Cheonggye, Gwancheon.", r: "Vrai", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "Le destructeur interne est appelé aussi Nicolas.", r: "Vrai", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "Le destructeur arrive au temple du tabernacle en 1975.", r: "Vrai", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "Nouveau Jean est juste le porte-parole de Jésus.", r: "Vrai", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "Le Vainqueur reçoit 12 + 1 bénédictions.", r: "Vrai", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "Nouveau jean entre dans le temple du tabernacle en 1967.", r: "Vrai", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "Jésus choisi Nouveau Jean en 1977 en l’imposant sa main droite (Ap 1:17).", r: "Vrai", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "La période de destruction commence en septembre 1980.", r: "Vrai", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "Apo 4, 5, 10 s’accompli vers 1980.", r: "Vrai", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "Dans Apo 6, un quart des esprits des fidèles est mort.", r: "Vrai", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "Dans Apo 8, un tiers des esprits des fidèles est mort.", r: "Vrai", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "Dans Apo 9, un tiers des esprits des fidèles est mort.", r: "Vrai", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "L’ouverture du sixième sceau marque la fin de l’Israel Spirituel.", r: "Vrai", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "Les 144000 ont la Parole de Dieu inscrit dans leur cœur et esprit.", r: "Vrai", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "Shincheonji a été créée le 14/03/1984.", r: "Vrai", points: 4, malus: 8 },
 
-    // --- Quiz (Accomplissement) ---
-    { cat: "Accomplissement", type: "quiz", q: "Où les 144 000 sont-ils rassemblés ?", options: ["Mont Sion", "Mer de verre", "Désert"], r: "Mont Sion", points: 6, malus: 6 },
-    { cat: "Accomplissement", type: "quiz", q: "Qui est l'époux lors des noces de l'Agneau ?", options: ["L'Agneau", "Le Pasteur", "Les Anges"], r: "L'Agneau", points: 6, malus: 6 },
+    // --- FAUX (16) ---
+    { cat: "Accomplissement", type: "vrai-faux", q: "L’Apocalypse est un livre un livre d’instructions.", r: "Faux", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "L’Apocalypse s’accomplit selon l’ordre des chapitres 1,2,3…22.", r: "Faux", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "La chair de Nouveau Jean est allé au monde spirituel.", r: "Faux", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "Nouveau Jean témoigne uniquement aux fidèles de Shincheonji.", r: "Faux", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "L’Apocalypse va bientôt commencer à s’accomplir.", r: "Faux", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "Les sept messagers se sont établis eux-mêmes.", r: "Faux", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "Les lettres envoyées en Apo 2-3 servent à juger le peuple qui a trahi.", r: "Faux", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "Nouveau jean quitte le tabernacle en 1971 pour aller se marier.", r: "Faux", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "La période de destruction commence en mars 1980.", r: "Faux", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "Dans Apo 8, un quart des esprits des fidèles est mort.", r: "Faux", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "Apo 7 s’accomplit juste après Apo 6.", r: "Faux", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "Les trompettes sonnées dans Apo 8 servent à annoncer qui le peuple sera détruit.", r: "Faux", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "Seulement les 144000 seront sauvés.", r: "Faux", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "La grande tribulation d’Apo 7:14 est le Covid-19.", r: "Faux", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "Pour devenir GMB il suffit de croire à l’accomplissement physique de l’Apocalypse.", r: "Faux", points: 4, malus: 8 },
+    { cat: "Accomplissement", type: "vrai-faux", q: "Au son de chaque trompette d’Apo 8 un tiers des esprits des fidèles meurent.", r: "Faux", points: 4, malus: 8 },
 
-    // --- Réponse Complète (Accomplissement) ---
-    { cat: "Accomplissement", type: "complet", q: "Comment appelle-t-on la ville qui descend du ciel ?", r: "Nouvelle Jérusalem", points: 8, malus: 4 },
-    { cat: "Accomplissement", type: "complet", q: "Quel est le dernier ennemi détruit dans l'étang de feu ?", r: "La mort", points: 8, malus: 4 } */
+
+    // --- Quiz (Accomplissement) ---(24)
+    // --- DÉFINITIONS ET SECRETS ---
+    { cat: "Accomplissement", type: "quiz", q: "Révélation signifie :", options: ["Ouvrir et Montrer", "Ouvrir et Amontrer", "Ouvrir et Monter", "Révéler"], r: "Ouvrir et Montrer", points: 6, malus: 6 },
+    { cat: "Accomplissement", type: "quiz", q: "Quel type de révélation nous avons besoin de recevoir au temps du second avancement ?", options: ["Révélation par vision", "Révélation de l’accomplissement physique", "Révélation du futur", "Aucune"], r: "Révélation de l’accomplissement physique", points: 6, malus: 6 },
+    { cat: "Accomplissement", type: "quiz", q: "Quel est le premier secret de l’Apocalypse ?", options: ["Salut", "Destruction", "Révélation", "Trahison"], r: "Trahison", points: 6, malus: 6 },
+    { cat: "Accomplissement", type: "quiz", q: "Quel est le deuxième secret de l’Apocalypse ?", options: ["Salut", "Destruction", "Révélation", "Trahison"], r: "Destruction", points: 6, malus: 6 },
+    { cat: "Accomplissement", type: "quiz", q: "Quel est le troisième secret de l’Apocalypse ?", options: ["Salut", "Destruction", "Révélation", "Trahison"], r: "Salut", points: 6, malus: 6 },
+    // --- LES GUERRES ---
+    { cat: "Accomplissement", type: "quiz", q: "Combien de guerres il y a-t-il dans l’Apocalypse ?", options: ["12", "2", "5", "3"], r: "3", points: 6, malus: 6 },
+    { cat: "Accomplissement", type: "quiz", q: "Ordre des guerres par chapitres : (1°guerre, 2°guerre, 3°guerre) ?", options: ["Apo 12; Apo 13; Apo 16.", "Apo 2,3; Apo 12; Apo 16.", "Apo 13, Apo 12, Apo 16;", "Apo 12; Apo 13; Apo 16,18;"], r: "Apo 12; Apo 13; Apo 16,18;", points: 6, malus: 6 },
+    // --- CHRONOLOGIE ET DATES ---
+    { cat: "Accomplissement", type: "quiz", q: "En quel année les sept messagers ont été choisis ?", options: ["1967", "1975", "1977", "1966"], r: "1966", points: 6, malus: 6 },
+    { cat: "Accomplissement", type: "quiz", q: "Qui prend la tête du tabernacle en 1967 ?", options: ["Ancien Moïse", "Samson", "Emmanuel", "Salomon"], r: "Samson", points: 6, malus: 6 },
+    { cat: "Accomplissement", type: "quiz", q: "En quel année les messagers expulsent le canal principal du chandelier ?", options: ["1971", "Ils ne l’ont jamais expulsé", "1966", "1967"], r: "1967", points: 6, malus: 6 },
+    { cat: "Accomplissement", type: "quiz", q: "En quel année Nouveau Jean a commencé à envoyer les lettres citées dans Apo 2-3 ?", options: ["1980", "1977", "1979", "1984"], r: "1979", points: 6, malus: 6 },
+    { cat: "Accomplissement", type: "quiz", q: "Qui prend la tête du tabernacle le 14 mars 1980 ?", options: ["Nouveau Jean", "Samson", "Emmanuel", "Nicolas"], r: "Nicolas", points: 6, malus: 6 },
+    { cat: "Accomplissement", type: "quiz", q: "Quand est-ce que le temple du tabernacle change complètement de dénomination ?", options: ["14 septembre 1967", "Il n’a jamais changé de dénomination", "14 mars 1966", "14 septembre 1980"], r: "14 septembre 1980", points: 6, malus: 6 },
+    // --- IDEssNTITÉS ET RÉALITÉS ---
+    { cat: "Accomplissement", type: "quiz", q: "D’après quel chapitre nous voyons que le soleil, la lune et les étoiles représentent la famille du tabernacle de Dieu ?", options: ["Gen 37", "Ex 19:5-6", "Mt 24", "Jn 15"], r: "Gen 37", points: 6, malus: 6 },
+    { cat: "Accomplissement", type: "quiz", q: "D’après Apo 7, Apo 14, Qui sont Ceux qui gardent la nouvelle alliance ?", options: ["Tout le monde", "Personne", "Les 144000 et la multitude en blanc", "Toutes les églises"], r: "Les 144000 et la multitude en blanc", points: 6, malus: 6 },
+    { cat: "Accomplissement", type: "quiz", q: "Quelle paire de versets prouvent que seulement Nouveau Jean peut en témoigner des évènements de l’Apocalypse ?", options: ["Apo 22:8 & Apo 22:16", "Apo 22:18 & Apo 22:19", "Apo 1:9 & Apo 1:17", "Apo 2:17 & Apo 3:12"], r: "Apo 22:8 & Apo 22:16", points: 6, malus: 6 },
+    { cat: "Accomplissement", type: "quiz", q: "Quel verset montre que Nouveau Jean ne va jamais trahir ?", options: ["Apo 22:18-19", "Apo 1:20", "Apo 3:12", "Apo 1:3"], r: "Apo 3:12", points: 6, malus: 6 },
+    // --- TRAHISON ET DESTRUCTION ---
+    { cat: "Accomplissement", type: "quiz", q: "Quel est la période de la trahison du peuple élu au second avènement ?", options: ["14 ans", "3 ans et demi", "20 ans", "5 mois"], r: "14 ans", points: 6, malus: 6 },
+    { cat: "Accomplissement", type: "quiz", q: "Pourquoi les sept messagers n’ont pas reçu la terre en héritage en 1969 ?", options: ["Ils ne veulent plus", "Ils ont trahi", "Ils ont vendu la bénédiction", "Personne ne peut nous témoigner"], r: "Ils ont trahi", points: 6, malus: 6 },
+    { cat: "Accomplissement", type: "quiz", q: "Combien de messagers sont restés dans le tabernacle lorsque le destructeur arrive ?", options: ["12", "7", "3", "4"], r: "4", points: 6, malus: 6 },
+    { cat: "Accomplissement", type: "quiz", q: "Quels pseudos font aussi référence au destructeur interne ?", options: ["Nicolas, Balak, Le rat, La constellation, La bête de la terre", "Nicolas, Balaam, Le serpent, L’absinthe, La bête de la terre", "Nicolas, Balaam, Le Serpent, L’absinthe, La bête de la mer", "Nicolas, Balak, La sauterelle, Le soleil, La grande prostitué"], r: "Nicolas, Balaam, Le serpent, L’absinthe, La bête de la terre", points: 6, malus: 6 },
+    { cat: "Accomplissement", type: "quiz", q: "Quels pseudos font référence au chef des destructeurs externe ?", options: ["Abaddon, Balak, La femme Jezabel, Tète de la bête de la mer", "Nicolas, Balaam, Le serpent, L’absinthe, La bête de la terre", "Nicolas, Balaam, Le Serpent, L’absinthe, La bête de la mer", "Abaddon, Balak, La femme Jezabel, Le vainqueur"], r: "Abaddon, Balak, La femme Jezabel, Tète de la bête de la mer", points: 6, malus: 6 },
+    { cat: "Accomplissement", type: "quiz", q: "Quel est la période de la destruction du peuple élu au second avènement ?", options: ["14 ans", "72 ans", "5 mois", "42 mois"], r: "42 mois", points: 6, malus: 6 },
+    { cat: "Accomplissement", type: "quiz", q: "Quel évènement marque le début de la destruction ?", options: ["Ils chassent Emmanuel", "Samson part aux EUA", "Changement de nom du temple et démission générale", "Nicolas devient évangéliste dans le tabernacle"], r: "Changement de nom du temple et démission générale", points: 6, malus: 6 },
+    
+    
+    // --- Réponse Complète (Accomplissement) ---(28)
+    { cat: "Accomplissement", type: "complet", q: "Titre complet d’Apocalypse chapitre 1:1-8 ?", r: "Apocalypse 1:1-8 Le résumé et la conclusion de tous les chapitres de l’Apocalypse.", points: 8, malus: 4 },
+    { cat: "Accomplissement", type: "complet", q: "Titre complet d’Apocalypse chapitre 1:9-20 ?", r: "Apocalypse 1 :9-20 Le début des évènements de l’Apocalypse et le secret des sept étoiles et des sept chandeliers d’or.", points: 8, malus: 4 },
+    { cat: "Accomplissement", type: "complet", q: "Titre complet d’Apocalypse chapitre 2-3 ?", r: "Apocalypse 2-3 Les lettres envoyées aux messagers des sept églises.", points: 8, malus: 4 },
+    { cat: "Accomplissement", type: "complet", q: "Titre complet d’Apocalypse chapitre 4 ?", r: "Apocalypse 4 Le trône de Dieu et l’organisation du monde spirituel", points: 8, malus: 4 },
+    { cat: "Accomplissement", type: "complet", q: "Titre complet d’Apocalypse chapitre 5 ?", r: "Apocalypse 5 Le livre scellé de sept sceaux.", points: 8, malus: 4 },
+    { cat: "Accomplissement", type: "complet", q: "Titre complet d’Apocalypse chapitre 6 ?", r: "Apocalypse 6 Le jugement du premier ciel, du soleil, de la lune et des étoiles qui ont trahi.", points: 8, malus: 4 },
+    { cat: "Accomplissement", type: "complet", q: "Titre complet d’Apocalypse chapitre 7 ?", r: "Apocalypse 7 Les douze tribus du Nouvel Israël Spirituel créées à nouveau.", points: 8, malus: 4 },
+    { cat: "Accomplissement", type: "complet", q: "Titre complet d’Apocalypse chapitre 8 ?", r: "Apocalypse 8 Le dernier sceau et les sept trompettes.", points: 8, malus: 4 },
+    { cat: "Accomplissement", type: "complet", q: "Titre complet d’Apocalypse chapitre 9 ?", r: "Apocalypse 9 Les sauterelles de l’abîme et les anges qui ont péché.", points: 8, malus: 4 },
+    { cat: "Accomplissement", type: "complet", q: "Titre complet d’Apocalypse chapitre 10 ?", r: "Apocalypse 10 Le livre révélé venu du ciel et le pasteur promis.", points: 8, malus: 4 },
+    { cat: "Accomplissement", type: "complet", q: "Titre complet d’Apocalypse chapitre 11 ?", r: "Apocalypse 11 Les deux témoins et la septième trompette.", points: 8, malus: 4 },
+    { cat: "Accomplissement", type: "complet", q: "Titre complet d’Apocalypse chapitre 12 ?", r: "Apocalypse 12 La guerre entre Dieu et le dragon.", points: 8, malus: 4 },
+    { cat: "Accomplissement", type: "complet", q: "Titre complet d’Apocalypse chapitre 13 ?", r: "Apocalypse 13 Le peuple élu qui a reçu la marque de la bête et a trahi.", points: 8, malus: 4 },
+    { cat: "Accomplissement", type: "complet", q: "Titre complet d’Apocalypse chapitre 14 ?", r: "Apocalypse 14 Les 144000 premiers fruits sur la montagne de Sion.", points: 8, malus: 4 },
+    { cat: "Accomplissement", type: "complet", q: "Titre complet d’Apocalypse chapitre 15 ?", r: "Apocalypse 15 Le Temple du Tabernacle du Témoignage où toutes les nations viendront adorer.", points: 8, malus: 4 },
+    { cat: "Accomplissement", type: "complet", q: "Titre complet d’Apocalypse chapitre 16 ?", r: "Apocalypse 16 Les sept coupes de la colère.", points: 8, malus: 4 },
+    { cat: "Accomplissement", type: "complet", q: "Titre complet d’Apocalypse chapitre 17 ?", r: "Apocalypse 17 La nourriture du diable, le vin de l’impudicité.", points: 8, malus: 4 },
+    { cat: "Accomplissement", type: "complet", q: "Titre complet d’Apocalypse chapitre 18 ?", r: "Apocalypse 18 Le mariage avec Satan qui a fait tomber toutes les nations.", points: 8, malus: 4 },
+    { cat: "Accomplissement", type: "complet", q: "Titre complet d’Apocalypse chapitre 19 ?", r: "Apocalypse 19 Le festin de noces des l’agneau avec l’esprit et la chair.", points: 8, malus: 4 },
+    { cat: "Accomplissement", type: "complet", q: "Titre complet d’Apocalypse chapitre 20 ?", r: "Apocalypse 20 La première résurrection des esprits martyrs et de vivants", points: 8, malus: 4 },
+    { cat: "Accomplissement", type: "complet", q: "Titre complet d’Apocalypse chapitre 21 ?", r: "Apocalypse 21 Shincheonji, le nouveau ciel et la nouvelle terre promis", points: 8, malus: 4 },
+    { cat: "Accomplissement", type: "complet", q: "Titre complet d’Apocalypse chapitre 22 ?", r: "Apocalypse 22 La ville sainte où se trouve l’arbre de vie", points: 8, malus: 4 },
+    { cat: "Accomplissement", type: "complet", q: "Quelle est la réalité du secret de la trahison ? avec le verset (écriture : Secret… Apo chapitre : verset)", r: "Secret des sept étoiles et des sept chandeliers d’or Apo 1 :20", points: 8, malus: 4 },
+    { cat: "Accomplissement", type: "complet", q: "Quelle est la réalité du secret de la destruction ? avec le verset (écriture : Secret… Apo chapitre : verset)", r: "Secret de la bête à sept têtes et dix cornes Apo 17 :7", points: 8, malus: 4 },
+    { cat: "Accomplissement", type: "complet", q: "Quelle est la réalité du secret du salut ? avec le verset (écriture : Secret… Apo chapitre : verset)", r: "Secret de la septième trompette Apo 10 :7", points: 8, malus: 4 },
+    { cat: "Accomplissement", type: "complet", q: "Quelle est la preuve que j’ai vraiment été créée selon la bible ?", r: "Être moissonné, scellé et appartenir aux 12 tribus d’Apo 7.", points: 8, malus: 4 },
+    { cat: "Accomplissement", type: "complet", q: "En quel mois/année Nouveau est rentré au temple du tabernacle.", r: "Février/1967", points: 8, malus: 4 },
+    { cat: "Accomplissement", type: "complet", q: "Apo 9, les anges qui ont pêché étaient préparés pour quel heure/jour/mois/année (écriture : ##h/##/##/####).", r: "14h/20/09/1981", points: 8, malus: 4 },
 ];
